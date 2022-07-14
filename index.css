@@ -1,0 +1,183 @@
+
+@media (min-width: 576px) { ... }
+@media (min-width: 768px) { ... }
+@media (min-width: 992px) { ... }
+@media (min-width: 1200px) { ... }
+
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+    background: rgb(76,58,81);
+    background: radial-gradient(circle, rgba(76,58,81,1) 20%, rgba(119,67,96,1) 100%);
+    }
+  
+ 
+  .parent {
+    display: grid;
+grid-template-columns: repeat(5, 2fr);
+grid-template-rows: repeat(8, 2fr);
+grid-column-gap: 2px;
+grid-row-gap: 3px;
+ border-top: 1px solid #000000;
+ border-right:1px solid #000000 ;
+ border-left: 1px solid #000000;
+background-color: #E4DCCF;
+margin-top: 30px;
+margin-left: 40px;
+margin-right: 40px;
+height: 500px;
+
+}
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 2 / 1 / 5 / 6; }
+    .div3 { grid-area: 3 / 2 / 5 / 3; }
+    .div4 { grid-area: 3 / 4 / 5 / 5; }
+
+    .div1{
+   height: 50px;
+text-align: center;
+border-bottom:1px solid #000000 ;
+
+}
+.div1 a{
+    text-decoration: none;
+    color:#F32424;
+    font-family: 'Anek Latin', sans-serif;
+
+}
+.div2{
+    margin: 10px;
+    text-align: center;
+    color:#F32424;
+    
+}
+.div2 p {
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 40px;
+
+}
+.div3 img{
+    width: 150px;
+    margin-left: 30px;
+    border-radius: 30%;
+
+}
+.div4{
+    margin-top: 30px;
+    font-family: 'Anek Latin', sans-serif;
+    margin-left:30px ;
+    border: 1px solid #000000;
+    box-shadow: -26px -22px 0px 1px rgba(255,79,79,1);
+-webkit-box-shadow: -26px -22px 0px 1px rgba(255,79,79,1);
+-moz-box-shadow: -26px -22px 0px 1px rgba(255,79,79,1);
+text-align: center;
+
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 3px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+        margin-top: -285px;
+height: 500px;
+border-right: 1px solid #000000;
+margin-right: 10px;
+margin-left: 10px;
+border-left: 1px solid #000000;
+background-color: #E4DCCF;
+margin-top: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .intro { grid-area: 1 / 1 / 2 / 6; }
+.project-1 { grid-area: 2 / 2 / 3 / 3; }
+.project-2 { grid-area: 3 / 2 / 4 / 3; }
+.project-3 { grid-area: 2 / 4 / 3 / 5; }
+.project-4 { grid-area: 3 / 4 / 4 / 5; }
+    .intro{
+        text-align: center;
+
+    }
+    .intro a{
+        text-decoration: none;
+        color:#F32424;
+        font-family: 'Anek Latin', sans-serif;
+        font-size: 30px;
+        
+    }
+    .project-1  {
+        list-style: none;
+        font-family: 'Anek Latin', sans-serif;
+    
+    }
+ 
+        .project-2 {
+            list-style: none;
+            font-family: 'Anek Latin', sans-serif;
+    }
+    .project-3  {
+        list-style: none;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .project-4 {
+        list-style: none;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .about-container{
+        border:1px solid #000000 ;
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+        background-color: #E4DCCF;
+
+    
+    }
+    .card-header{
+        color:#F32424;
+    }
+.contact p{
+    font-family: 'Anek Latin', sans-serif;
+margin-left: 30px;
+font-size: 30px;
+color:#F32424;
+}
+.title p{
+    font-family: 'Anek Latin', sans-serif;
+margin-left: 30px;
+font-size: 30px;
+color:#F32424;
+}
+.paragraph p{
+    font-family: 'Anek Latin', sans-serif;
+margin-left: 30px;
+font-size: 20px;
+}
+.about-container a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: 'Anek Latin', sans-serif;
+    
+}
+
+footer{
+margin-top: 10px;
+}
+.float-right{
+    float: right;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
